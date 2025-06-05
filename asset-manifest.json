@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/a-pump-screener/static/css/main.a1fe1917.css",
+    "main.js": "/a-pump-screener/static/js/main.d2dbc222.js",
+    "static/js/453.4192c749.chunk.js": "/a-pump-screener/static/js/453.4192c749.chunk.js",
+    "static/media/background.png": "/a-pump-screener/static/media/background.4e3043d8607cf91b1f51.png",
+    "index.html": "/a-pump-screener/index.html",
+    "main.a1fe1917.css.map": "/a-pump-screener/static/css/main.a1fe1917.css.map",
+    "main.d2dbc222.js.map": "/a-pump-screener/static/js/main.d2dbc222.js.map",
+    "453.4192c749.chunk.js.map": "/a-pump-screener/static/js/453.4192c749.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1fe1917.css",
+    "static/js/main.d2dbc222.js"
+  ]
+}

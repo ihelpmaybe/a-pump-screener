@@ -1,5 +1,27 @@
 [
   {
+    "address": "0xEd17a2F31B78298d53bA12e4bB63e86BC5DC9890",
+    "name": "Drifty",
+    "symbol": "NOS",
+    "image_url": "https://ipfs.io/ipfs/QmP61uqa8qeJbQqApZW1bDK5dgqBLXZmxAjSQxan5rcTcp",
+    "description": "Slide, Boost, Earn. Only the fearless ride $NOS",
+    "web": "https://pump.tires/",
+    "telegram": "",
+    "twitter": "https://x.com/pumptires?s=21",
+    "creator_address": "0x704d80e1B89B90F8925BCDBB18832A95cDe2941A"
+  },
+  {
+    "address": "0xB64100BCdC8CC35bD6e0162313A3bd8733feA893",
+    "name": "TagOnTires",
+    "symbol": "TagOnTires",
+    "image_url": "https://ipfs.io/ipfs/QmR2FtSBqcUXeoefrmMtT2NVEzMfs9oLWsTWAzXRzZPHNX",
+    "description": "@TagOnTires $TICKER + COINNAME and we’ll auto-launch it on https://pump.tires.",
+    "web": "https://tagontires.fun/",
+    "telegram": "",
+    "twitter": "TagOnTires",
+    "creator_address": "0x68963CFdBbAC62b82c2E6d9BEFb170EdE4363bF6"
+  },
+  {
     "address": "0xDC7A1365EB72e5Fe578521E36B5D49EB7045E278",
     "name": "ackchyually",
     "symbol": "ACKCHYUALLY",

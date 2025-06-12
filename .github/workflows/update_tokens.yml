@@ -1,4 +1,4 @@
-name: Update Pump Tokens
+_name: Update Pump Tokens
 
 on:
   schedule:
@@ -24,7 +24,7 @@ jobs:
       run: pip install requests
 
     - name: Run scraper
-      run: python scripts/pump.py
+      run: python scripts/scrape_pump.py
 
     - name: Commit and push pump_tokens.json
       env:

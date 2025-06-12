@@ -1,0 +1,35 @@
+name: Update Pump Tokens
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout gh-pages branch
+      uses: actions/checkout@v3
+      with:
+        ref: gh-pages
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install requests
+
+    - name: Run scraper
+      run: python scripts/pump.py
+
+    - name: Commit and push pump_tokens.json
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add pump_tokens.json
+        git commit -m "Auto-update pump_tokens.json" || echo "No changes to commit"
+        git push origin gh-pages

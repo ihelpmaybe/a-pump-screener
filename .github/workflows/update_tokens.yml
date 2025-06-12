@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: pip install requests
 
-    - name: Run scraper
+    - name: Run scraper.
       run: python scripts/pump.py
 
         - name: Commit and push pump_tokens.json

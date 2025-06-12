@@ -23,10 +23,10 @@ jobs:
     - name: Install dependencies
       run: pip install requests
 
-    - name: Run scraper.
+    - name: Run scraper
       run: python scripts/pump.py
 
-        - name: Commit and push pump_tokens.json
+    - name: Commit and push pump_tokens.json
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |

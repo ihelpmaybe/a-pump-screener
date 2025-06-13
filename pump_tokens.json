@@ -1,5 +1,27 @@
 [
   {
+    "address": "0xf2567f4Ce064dCe63F9E4877f7E880493317bf99",
+    "name": "Only 1",
+    "symbol": "Only1",
+    "image_url": "https://ipfs.io/ipfs/Qmbj6Wtj43Nv4TVC1jAuBk5qtSLqcdYDiiwVUyiccGAPF5",
+    "description": " Amid thousands of scammy launches, Only 1 is breaking the mold on PulseChain!  \nNo insiders. No secret deals. No rug pulls. A truly fair launch for everyone.\nIn a crypto space full of deception, ONLY 1 stands alone",
+    "web": "https://only1coin.net",
+    "telegram": "t.me/TheOnly1Coin",
+    "twitter": "Only1Pulsechain",
+    "creator_address": "0xF2Dc9A117cB14b32702aA3Ecf5AAa0e117B5b970"
+  },
+  {
+    "address": "0x08BDe5d3cC10d7EEB7491dEE54333Cd23e767036",
+    "name": "dummy verse token",
+    "symbol": "DVT",
+    "image_url": "https://ipfs.io/ipfs/QmeEBDbVA8uaErLQYX7xSVZAjFuJKYsMQANMqLKF8G8br6",
+    "description": "dummy verse token is a meme coin based around the dummy verse I intend to create. DVT token will be launched on multiple chains, this is the pulsechain version, it will become clear over time where we are headed, as we develop the dummy verse. ",
+    "web": "https://dummyverse.com",
+    "telegram": "",
+    "twitter": "cryptodummy",
+    "creator_address": "0x0e6Ce4D8054Eff0067036D810dFffeAC7126f2b1"
+  },
+  {
     "address": "0xEd17a2F31B78298d53bA12e4bB63e86BC5DC9890",
     "name": "Drifty",
     "symbol": "NOS",

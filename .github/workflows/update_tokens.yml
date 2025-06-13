@@ -1,8 +1,8 @@
-name: Build and Push pump_tokens.json
+name: Update Pump Tokens
 
 on:
   schedule:
-    - cron: '0 * * * *'  # every hour
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,26 +10,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v3
-        with:
-          ref: main
+    - name: Checkout main
+      uses: actions/checkout@v3
+      with:
+        ref: main
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
 
-      - name: Install dependencies
-        run: pip install requests
+    - name: Install dependencies
+      run: pip install requests
 
-      - name: Run script
-        run: python scripts/scrape_pump.py
+    - name: Run scraper
+      run: python scripts/scrape_pump.py
 
-      - name: Commit pump_tokens.json to main
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add pump_tokens.json
-          git commit -m "Update pump_tokens.json [auto]" || echo "No changes"
-          git push origin main
+    - name: Commit and push pump_tokens.json
+      env:
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add pump_tokens.json
+        git commit -m "Auto-update pump_tokens.json" || echo "No changes to commit"
+        git push https://x-access-token:${TOKEN}@github.com/${{ github.repository }} main

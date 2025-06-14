@@ -1,5 +1,16 @@
 [
   {
+    "address": "0x7f7B23ef922FeB741147717323F3c59E21eF75aC",
+    "name": "BUTCH",
+    "symbol": "BUF",
+    "image_url": "https://ipfs.io/ipfs/QmSqWurAuBc96spMWjAysJUqnS7igTcAz9XgvhcdDTEzWM",
+    "description": "Buf Butch - the hardest workin bulldog downunder",
+    "web": "",
+    "telegram": "",
+    "twitter": "",
+    "creator_address": "0xDB878025203BDCDD4E47c1a05Cf73a22654Eb3E0"
+  },
+  {
     "address": "0xf2567f4Ce064dCe63F9E4877f7E880493317bf99",
     "name": "Only 1",
     "symbol": "Only1",

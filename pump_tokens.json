@@ -1,5 +1,16 @@
 [
   {
+    "address": "0x962Af68421C94744D42083f901cAC3a02d77F8cb",
+    "name": "DONNY",
+    "symbol": "DONNY",
+    "image_url": "https://ipfs.io/ipfs/QmazQWhfgo9syK26pzs9Gc6qM1hCZmDbEztihaGoXR7Em5",
+    "description": "Donny the dealer ",
+    "web": "",
+    "telegram": "",
+    "twitter": "",
+    "creator_address": "0xDB878025203BDCDD4E47c1a05Cf73a22654Eb3E0"
+  },
+  {
     "address": "0xB00F7cAf02257df77855e17D74E71DaAf3c9876a",
     "name": "UrDad",
     "symbol": "$UrDad",
